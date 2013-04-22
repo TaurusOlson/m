@@ -15,41 +15,23 @@ modify what it is doing, you can do it with:
 
     	m
 
-* a command to play the next song
+* `m n`: to play the next song
 
-    	m n
+* `m p`: to play the previous song
 
-* a command to play the previous song
+* `m -`: to decrease the volume
 
-    	m p
+* `m +`: to increase the volume
 
-* a command to decrease the volume
+* `m s`: to display the current status
 
-   		m -
+* `m <n>`: to jump to the nth track 
 
-* a command to increase the volume
+* `m l`: to list the tracks in the current playlist
 
-    	m +
+* `m u`: to empty the current playlist and update the database
 
-* a command to display the current status
-
-    	m s
-
-* a command to jump to the nth track 
-
-    	m <n>
-
-* a command to list the tracks in the current playlist
-
-    	m l
-
-* a command to empty the current playlist and update the database
-
-    	m u
-
-* a command to display a help message
-
-    	m h
+* `m h`: to display a help message
 
 That's all. 
 
