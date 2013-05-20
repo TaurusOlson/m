@@ -50,7 +50,7 @@ if [ $# -eq 1 ]; then
             ;;
         "+") mpc volume +10
             ;;
-        "l") mpc playlist
+        "l") mpc playlist | cat -b
             ;;
         "u") mpc clear && mpc update
             ;;
